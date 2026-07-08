@@ -1,0 +1,26 @@
+# ============================================================
+#  EMBER - Dependencies
+#  Install with: pip install -r requirements.txt
+# ============================================================
+
+# Core ML
+torch>=2.0.0          # Neural network framework (CPU build is fine)
+numpy>=1.24.0         # Numerical computing
+
+# Tokenizer
+tokenizers>=0.15.0    # HuggingFace fast BPE tokenizer library (we build on top)
+regex>=2023.0.0       # Advanced regex for tokenization
+
+# Datasets (streaming — never downloads the full dataset at once)
+datasets>=2.14.0      # HuggingFace datasets with streaming support
+
+# Training utilities
+tqdm>=4.65.0          # Progress bars
+tensorboard>=2.13.0   # Training visualization (optional but useful)
+
+# Serialization
+safetensors>=0.4.0    # Fast, safe model weight format
+
+# Dev / testing
+pytest>=7.4.0         # Testing
+rich>=13.0.0          # Beautiful terminal output

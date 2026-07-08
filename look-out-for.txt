@@ -1,0 +1,4 @@
+checkpoints health:
+Healthy : loss drifts back down toward 3.3 or lower
+Warning : loss keeps climbing above 3.6
+Danger  : loss climbs above 4.0 consistently

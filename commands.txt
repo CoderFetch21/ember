@@ -1,0 +1,2 @@
+python ember-base.py --checkpoint checkpoints/best.pt
+python ember.py --checkpoint checkpoints/finetuned_epoch3.pt
